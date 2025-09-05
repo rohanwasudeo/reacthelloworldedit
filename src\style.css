@@ -12,3 +12,20 @@ body {
 .footer:hover {
   box-shadow: 0 0 16px 0 rgba(13,110,253,0.08);
 }
+
+.card {
+  border-radius: 1rem;
+}
+.card .form-label {
+  font-weight: 500;
+}
+.card .btn-primary {
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.card .btn-primary:hover, .card .btn-primary:focus {
+  background: #0b5ed7;
+  box-shadow: 0 2px 16px 0 rgba(13,110,253,0.10);
+}
+.card .spinner-border {
+  vertical-align: middle;
+}
